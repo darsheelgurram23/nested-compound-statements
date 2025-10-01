@@ -7,13 +7,13 @@ int main(){
     if(home == false){
         cout << "System idle. No one is home" << endl;
     }
-    else if(home == true && temp > 75){
+     if(home == true && temp > 75){
         cout << "Activate cooling system" << endl;
     }
-    else if(home == true && temp < 65){
+     if(home == true && temp < 65){
         cout << "Activate heating system" << endl;
     }
-    else if(home == true && 65 <= temp <= 75){
+     if(home == true && 65 <= temp <= 75){
         cout << "Temperature is stable. System standby" << endl;
     }
 
@@ -48,4 +48,5 @@ int main(){
   }
 
    return 0;
+
 } 
